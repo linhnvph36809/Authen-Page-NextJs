@@ -7,7 +7,8 @@ import Loading from "./components/loading/pages";
 
 const ListPost = () => {
   const { data, loading, error, fetchPosts } = usePosts();
-  
+    console.log(error);
+    
   useEffect(() => {
     fetchPosts("posts", "GET");
   }, []);

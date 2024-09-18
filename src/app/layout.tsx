@@ -26,7 +26,7 @@ export default function RootLayout({
           </button>
         </div>
         {children}
-        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.tailwindcss.com" async></script>
       </body>
     </html>
   );
