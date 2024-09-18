@@ -25,7 +25,7 @@ const useAuth = () => {
     handlerDeleteCookie("refreshToken");
     handlerDeleteCookie("username");
     setIsLogin(false);
-    router.push("/pages/login");
+    router.push("/");
   }, []);
 
   const {
